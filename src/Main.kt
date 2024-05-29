@@ -13,10 +13,10 @@ fun main() {
             print("${stringArray[i]} ")
             buf++
         }
-            else continue
+        else continue
     }
     if(buf == 0) println("Совпадений нет")
-    println()
+    println("\n--------------------------------------")
 //3
     val array = arrayOf(1, 0 ,7, 6, 4, 9, 0, 2, 3, 9, 5)
     var count = 0
