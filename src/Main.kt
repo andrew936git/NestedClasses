@@ -9,11 +9,10 @@ fun main() {
     val symbol = readln().lowercase()
     var buf = 0
     for (i in stringArray.indices){
-        for (j in stringArray.indices){
-            if (symbol == (stringArray[i][j]).toString().lowercase()) {
-                print("${stringArray[i]} ")
-                buf++
-            }
+        if (stringArray[i].contains(symbol, true)) {
+            print("${stringArray[i]} ")
+            buf++
+        }
             else continue
         }
     }
