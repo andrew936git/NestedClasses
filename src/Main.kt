@@ -14,7 +14,6 @@ fun main() {
             buf++
         }
             else continue
-        }
     }
     if(buf == 0) println("Совпадений нет")
     println()
